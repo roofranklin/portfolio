@@ -1,0 +1,18 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Blinker&display=swap');
+$defaultFont: 'Blinker', sans-serif;
+
+// Colors
+$dark: #161616;
+$lightDark: #202020;
+$whiteFont: rgba(255, 255, 255, 0.8);
+$darkFont: rgba(15, 15, 15, 0.8);
+
+// Mixins
+@mixin gradient {
+  background: #8A2387; 
+  background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  
+  background: linear-gradient(to right, #F27121, #E94057, #8A2387);
+}
+
+

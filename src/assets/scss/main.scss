@@ -1,0 +1,82 @@
+html {
+  scroll-behavior: smooth;
+  body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+    overflow: hidden;
+    background-color:$dark;
+    font-family: $defaultFont;
+    color: $whiteFont;
+  }
+}
+  
+  .section {
+    background: $dark;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .top-deco {
+    @include gradient;
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    top: -10px;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    transform: rotate(180deg);
+  }
+  
+  .section:nth-child(odd) {
+    @include gradient;
+  }
+  
+  .section:nth-child(odd) .top-deco {
+    background: $dark;
+  }
+  
+  .section:nth-child(odd) h1 {
+    color: $darkFont;
+  }
+  
+  .section:nth-child(odd) p {
+    color: $darkFont;
+  }
+  
+  .section:nth-child(odd) .icon {
+    color: $whiteFont;
+  }
+  
+  .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .icon {
+    font-size: 55px;
+    color: $whiteFont;
+    position: absolute;
+    top: 36%;
+    left: 41%;
+    transform: rotate(180deg);
+  }
+  
+  .fa-smile {
+    font-size: 60px;
+  }
+  
+  .three .icon {
+    left: 42%;
+  }
+  
+  .five .icon {
+    left: 38%;
+  } 
+  

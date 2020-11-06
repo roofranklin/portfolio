@@ -1,0 +1,38 @@
+.navbar {
+    position: fixed;
+    bottom: 0;
+    border-top: 2px solid $dark;
+    background: $lightDark;
+    width: 100vw;
+    height: 50px;
+    z-index: 100;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    height: 40px;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #F27121;
+    font-weight:bold;
+    font-size: 18px;
+    position: relative;
+    height: 50px;
+    width: 150px;
+    flex-basis: 150px;
+    flex-grow: 1;
+    text-align: center;
+    padding-top: 17px;
+    box-sizing: border-box;
+}
+
+a:hover,
+a:active,
+a:focus {
+    background: #F27121;
+    color:#202020;
+}
