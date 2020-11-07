@@ -23,32 +23,29 @@ html {
   
   .top-deco {
     @include gradient;
-    width: 300px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
     position: absolute;
-    top: -10px;
-    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-    transform: rotate(180deg);
+    top: -90px;
+    clip-path: polygon(0% 0%, 0% 100%, 3% 100%, 3% 3%, 97% 3%, 97% 97%, 3% 97%, 3% 100%, 100% 100%, 100% 0%);
+    transform: rotate(45deg);
+    border-radius:6px;
   }
   
   .section:nth-child(odd) {
     @include gradient;
-  }
-  
-  .section:nth-child(odd) .top-deco {
-    background: $dark;
-  }
-  
-  .section:nth-child(odd) h1 {
-    color: $darkFont;
-  }
-  
-  .section:nth-child(odd) p {
-    color: $darkFont;
-  }
-  
-  .section:nth-child(odd) .icon {
-    color: $whiteFont;
+    .content{
+      background-color: $whiteFont;
+    }
+    .top-deco {
+      background: $dark;
+    }
+    h1 {
+      color: $darkFont;
+    }
+    p {
+      color: $darkFont;
+    }
   }
   
   .center {
@@ -58,25 +55,4 @@ html {
     transform: translate(-50%, -50%);
     text-align: center;
   }
-  
-  .icon {
-    font-size: 55px;
-    color: $whiteFont;
-    position: absolute;
-    top: 36%;
-    left: 41%;
-    transform: rotate(180deg);
-  }
-  
-  .fa-smile {
-    font-size: 60px;
-  }
-  
-  .three .icon {
-    left: 42%;
-  }
-  
-  .five .icon {
-    left: 38%;
-  } 
   

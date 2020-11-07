@@ -1,8 +1,5 @@
 <template>
     <section class="section four" id="s4">
-        <div class="top-deco deco-4">
-            <span class="icon"><i class="fas fa-briefcase"></i></span>
-        </div>
         <div class="center">
             <h1>Portfolio</h1> 
             <p>Ostenditur ex studio secuti sententiam veram per quam actus rationis speculando.</p>

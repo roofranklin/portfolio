@@ -1,11 +1,16 @@
 <template>
     <section class="section two" id="s2">
-        <div class="top-deco deco-2">
-            <span class="icon"><i class="fas fa-user-tie"></i></span>
-        </div>
         <div class="center">
-            <h1>Sobre mim</h1>
-            <p>Quietem solitudinis amicos excolere pauca quam vulgus iocumque nutu sollicitatque notis clamor multitudinis.</p>
+            <div class="content">
+                <div>
+                    <h1>Sobre mim</h1>
+                    <p>Quietem solitudinis amicos excolere pauca quam vulgus iocumque nutu sollicitatque notis clamor multitudinis.</p>
+                </div>
+                <div>
+                    <h1>Resumo Profissional</h1>
+                    <p>Quietem solitudinis amicos excolere pauca quam vulgus iocumque nutu sollicitatque notis clamor multitudinis.</p>
+                </div>
+            </div>
         </div>
     </section>
 </template>
